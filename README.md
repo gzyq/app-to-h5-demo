@@ -1,2 +1,1 @@
-# app-to-h5-demo
-App site into H5 page 
+主要记录将app原型转为h5页面，直接访问本地地址即可在浏览器观看效果。
