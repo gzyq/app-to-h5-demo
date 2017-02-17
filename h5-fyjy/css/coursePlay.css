@@ -1,0 +1,80 @@
+body{
+	background: #FFF;
+}
+.coursePlay{
+
+}
+.back{
+	background: #2A79E2; 
+	padding: 0.13rem;
+}
+.back img{
+	width: 0.21rem;
+	height: 0.18rem;
+}
+.coursePlay h1{
+	padding:0.13rem;
+	background: #FFF;
+	border-bottom: solid 0.1rem #F1F4F9;
+	/* margin-bottom:0.1rem;  */
+}
+.coursePlay-time{
+	padding:0.10rem 0.13rem;
+	background: #FFF;
+	border-bottom: solid 1px #E9E9E9;
+}
+.coursePlay-time span{
+	color: #6E6E6E;
+	font-size: 0.12rem;
+	padding-left: 0.12rem;
+}
+.coursePlay-intr{
+	padding:0.13rem;
+	background: #FFF;
+}
+.coursePlay-intr p{
+	font-size: 0.12rem;
+	color: #6E6E6E;
+	line-height: 0.2rem;
+	margin-top:0.10rem; 
+}
+.coursePlay-list{
+	background: #FFF;
+}
+.coursePlay-list ul{
+	padding-left: 0.22rem;
+	padding-right: 0.18rem;
+}
+.coursePlay-list ul li{
+	margin: .34rem 0;
+	background-repeat: no-repeat;
+	background-size: 0.14rem;
+	background-position: left center;
+	padding-left: 0.19rem;
+	position: relative;
+}
+.coursePlay-list ul li i{
+	position: absolute;
+	left: 0.06rem;
+    top: 0.14rem;
+	display: block;
+	height: 0.34rem;
+	width: 2px;
+	background: #B2B2B2;
+}
+.coursePlay-list ul li:last-child i{
+	display: none;
+}
+.coursePlay-list ul li.li-bg1{
+	background-image: url(../imgs/icon_dian_hui.png);
+}
+.coursePlay-list ul li.li-bg2{
+	background-image: url(../imgs/icon_dian_se.png);
+}
+.coursePlay-list ul li.li-bg3{
+	background-image: url(../imgs/icon_dian_black.png);
+}
+.coursePlay-list ul li span{
+	color: #B1B1B1;
+	float: right;
+}

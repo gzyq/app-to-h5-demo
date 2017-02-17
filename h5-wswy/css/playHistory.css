@@ -1,0 +1,61 @@
+section{
+	padding: 10px;
+}
+.div-history-list{
+	margin-top: -10px;
+}
+.history-pic{
+	display: block;
+	width: 140px;
+	height: 80px;
+	float: left;
+	margin-right: -140px;
+}
+.history-pic img{
+	max-width: 100%;
+	height: 100%;
+}
+.ul-history-list li{
+	margin-bottom: 5px;	
+}
+.history-cont{
+	padding-left: 140px;
+}
+.history-cont h3{
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 2px;
+}
+/*点击删除图标后*/
+.li-selected{
+	background: url(../img/selected@2x.png) no-repeat 7px 35px;
+	background-size:12px 12px ;
+}
+.li-unselected{
+	background: url(../img/unselected@2x.png) no-repeat 7px 35px;
+	background-size:12px 12px ;
+}
+/*全选、删除*/
+.div-operation{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	border-top: solid 1px #c9c9c9;
+	background-color: #FFF;
+	display: none;
+	
+}
+.div-operation a{
+	display: block;
+	float: left;
+	width: 50%;
+	padding: 10px 0;
+	text-align: center;
+}
+.div-operation a:first-child{
+	margin-right: -1px;
+	border-right: solid 1px #c9c9c9;
+}
+.a-selectAll{
+	
+}

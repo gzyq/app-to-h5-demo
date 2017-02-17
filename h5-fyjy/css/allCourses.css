@@ -1,0 +1,56 @@
+.course-menu{
+	font-size: 0;
+}
+.course-menu a{
+	/*display: inline-block;*/
+	display: block;
+    float: left;
+    overflow: hidden;
+	width:33.33333333333333333333333333%;
+	text-align: center;
+	padding-top: 0.3rem;
+	padding-bottom: 0.2rem;
+}
+.course-icon{
+	display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 0.45rem auto;
+    width: .45rem;
+    height: .45rem;
+}
+.course-menu a span{
+	display: block;
+    padding-top: .06rem;
+	color: #232521;
+	font-size: .14rem;
+}
+.course-icon-yw{
+	background-image:url(../imgs/icon_yuwen.png) ;
+}
+.course-icon-sx{
+	background-image:url(../imgs/icon_sx.png) ;
+}
+.course-icon-yy{
+	background-image:url(../imgs/icon_en.png) ;
+}
+.course-icon-wl{
+	background-image:url(../imgs/icon_wuli.png) ;
+}
+.course-icon-hx{
+	background-image:url(../imgs/icon_huaxue.png) ;
+}
+.course-icon-sw{
+	background-image:url(../imgs/icon_shengwu.png) ;
+}
+.course-icon-sxzz{
+	background-image:url(../imgs/icon_zhengzhi.png) ;
+}
+.course-icon-ls{
+	background-image:url(../imgs/icon_history.png) ;
+}
+.course-icon-dl{
+	background-image:url(../imgs/icon_dili.png) ;
+}
+.course-icon-qt{
+	background-image:url(../imgs/icon_other.png) ;
+}

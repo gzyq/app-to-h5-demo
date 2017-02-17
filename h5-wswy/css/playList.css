@@ -1,0 +1,47 @@
+
+main{
+	width: 100%;
+	background: #EEF1F8;
+	padding:10px ;
+	margin-right: -5px;
+	-webkit-box-sizing: border-box;
+}
+.div-wrap-playlist{
+	margin-right: -5px;
+    font-size: 0;
+}
+section{
+	width: 50%;
+    margin-top: 7px;
+    padding-right: 5px;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 12px;
+    vertical-align: top;
+}
+section p{
+	height:2px;
+	background: #92A7C2;
+	margin-bottom: 1px;
+}
+section p.p1{
+	width: 86%;
+	margin-left:7%;
+}
+section p.p2{
+	width: 92%;
+	margin-left:4%;
+}
+section img{
+	display: block;
+	width: 100%;
+	background: #92A7C2;
+}
+section span{
+	display: block;
+	padding: 6px 0;
+	word-break: break-all;
+}
+
+

@@ -1,0 +1,70 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<title> 使用 nth-child 选择器指定项目背景色 </title>
+</head>
+<body>
+<ul>
+	<li> 列表项目 1</li>
+	<li> 列表项目 2</li>
+	<li> 列表项目 3</li>
+	<li> 列表项目 4</li>
+	<li> 列表项目 5</li>
+	<li> 列表项目 6</li>
+	<li> 列表项目 7</li>
+	<li> 列表项目 8</li>
+	<li> 列表项目 9</li>
+	<li> 列表项目 10</li>
+	<li> 列表项目 11</li>
+	<li> 列表项目 12</li>
+</ul>
+<style type="text/css">
+	li:nth-child(4n+1) {
+	background-color: blueviolet;
+	}
+	li:nth-child(4n+2) {
+	background-color: limegreen;
+	}
+	li:nth-child(4n+3) {
+	background-color: red;
+	}
+	li:nth-child(4n+4) {
+	background-color: white;
+	}
+</style>
+
+<ul>
+	<li> 列表项目 A01</li>
+</ul>
+<!--<style type="text/css">
+	//效果同下
+	li:nth-child(1):nth-last-child(1){
+		background-color: #00FFFF;
+	}
+</style>-->
+<style type="text/css">
+	li:only-child{
+		background-color: #00FFFF;
+	}
+</style>
+
+<div>
+	<h2> 文章标题 A</h2>
+	<p> 文章正文。</p>
+	<h2> 文章标题 B</h2>
+	<p> 文章正文。</p>
+	<h2> 文章标题 C</h2>
+	<p> 文章正文。</p>
+	<h2> 文章标题 D</h2>
+	<p> 文章正文。</p>
+</div>
+<style type="text/css">
+	h2:nth-child(odd){
+	background-color: yellow;
+	}
+	h2:nth-child(even){
+	background-color: skyblue;
+	}
+</style>
+</body>
+</html>

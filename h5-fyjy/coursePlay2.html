@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-title" content="凡悦教育">
+	<link rel="apple-touch-icon-precomposed" href="imgs/57-precomposed.png"/>
+	<link rel="apple-touch-startup-image" sizes="640x960" href="imgs/qidong.png"/>
+	<meta name="format-detection" content="telephone=no">
+	<title>视频播放-带学时</title>
+	<meta name="description" content="凡悦教育"/>
+	<meta name="keywords" content="教育"/>
+	<link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+	<link rel="shortcut icon" type="image/ico" href="imgs/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="css/coursePlay.css"/>
+	<script type="text/javascript">
+		var size= window.innerWidth>window.innerHeight?window.innerHeight:window.innerWidth;
+		document.getElementsByTagName('html')[0].style.fontSize = size*100/ 360 + 'px';
+	</script>
+</head>
+<body>
+<div class="back"><img src="imgs/icon_return.png" alt="" onclick="history.go(-1)"></div> 
+<section class="coursePlay">
+	<video src="video/demo.mp4" width="100%"></video> 
+	<h1>小学三年级语文</h1>
+	<!-- <div class="coursePlay-time">时长 <span>00:01:20</span></div>
+	<div class="coursePlay-intr">
+		简介
+		<p>极光是出现于星球的高磁纬地区上空，是一种绚丽多彩的发光现象。极光是由于太阳带电粒子流（太阳风）进入地球磁场，在地球南北两极附近地区的高空，夜间出现的灿烂美丽的光辉。在南极被称为南极光，在北极被称为北极光。地球的极光是来自地球磁层或太阳的高能带电粒子流（太阳风）使高层大气分子或原子激发（或电离）而产生。</p>
+	</div> -->
+
+	<div class="coursePlay-list">
+		<ul>
+			<li class="li-bg1">
+				<i></i>成语故事<span>已学0.6/0.6学时</span>
+			</li>
+			
+			<li class="li-bg2">
+				<i></i>成语故事（一）<span>已学0.4/2.0学时</span>
+			</li>
+			<li class="li-bg3">
+				<i></i>成语故事（二）<span>已学0.0/0.6学时</span>
+			</li>
+		</ul>
+	</div>
+</section>
+</body>
+</html>

@@ -1,0 +1,112 @@
+.mystudyHeader{
+	background: #2D7AE3;
+	padding:0.05rem 0.1rem;
+	color: #FFF;
+	box-sizing: border-box;
+
+}
+.mystudyHeader div{
+	line-height: 0.2rem;
+}
+.myStudy-top{
+	position: relative;
+}
+
+
+.mystudyHeader h1{
+	font-size: 0.18rem;
+	padding:0.15rem;
+	text-align: center; 
+}
+.mystudyHeader span{
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	width: 0.18rem;
+	height: 0.18rem;
+	background: url(../imgs/home_search.png) no-repeat;
+	background-size: contain;
+}
+
+
+.mystudy-bar{
+	background: #FFF;
+	height: 0.45rem;
+	line-height: 0.45rem;
+	text-align: center;
+}
+.mystudy-bar a{
+
+}
+ul.mystudy-list li{
+	background: #fff;
+    box-sizing: border-box;
+    padding: 0.15rem 0.13rem;
+    display: -webkit-box;
+    margin-top:0.1rem; 
+}
+.mystudy-list-img{
+	position: relative;
+	width: 1.10rem;
+	height: 0.75rem;
+}
+.mystudy-list-img a{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+}
+.mystudy-list-text{
+	position: relative;
+	padding-left: 0.11rem;
+  	-webkit-box-flex: 1;
+}
+.mystudy-list-text h2{
+	line-height: 0.15rem;
+}
+.mystudy-list-text h3{
+	color: #AFAFAF;
+	font-size: 0.12rem;
+	padding-top: 0.06rem;
+}
+.pregress{
+	height: 0.05rem;
+	border-radius: 0.05rem;
+	border: solid 1px #D6D6D6;
+	margin-top:0.16rem; 
+	margin-bottom: 0.06rem;
+	position: relative;
+}
+.pregress-to{
+	display: block;
+	width: 0.80rem;
+	height: 100%;
+	position: absolute;
+	background:#2E77E1;
+	border-radius: 0.05rem 0 0 0.05rem; 
+}
+.has-study{
+	color:#737373;
+	font-size: 0.12rem;
+	/* position: absolute;
+	    bottom: 0; */
+}
+.video-play{
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	width: 0.15rem;
+	height: 0.15rem;
+	background: url(../imgs/my_icon_video.png) no-repeat;
+	background-size: 0.15rem 0.15rem;
+}
+.review{
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #31B44D;
+}

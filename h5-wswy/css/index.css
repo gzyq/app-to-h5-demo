@@ -1,0 +1,50 @@
+/*登录页面*/
+.div-login{
+	padding-top: 30px;
+	text-align: center;
+}
+.form-login{
+	width: 22.7em;
+	margin: 0 auto;
+	padding-top: 5.5em;
+}
+.div-login-input{
+	padding-top: 2em;
+	border-bottom: solid 1px #BBB;
+	background-position:2px 22px;
+	background-repeat: no-repeat;
+}
+.account{
+	background-image: url(../img/login_user.png);
+}
+.password{
+	background-image: url(../img/login_password.png);
+}
+.form-login input{
+	border: none;
+	outline: none;
+	width: 10.2em;
+	font-size: 1.6em;
+	padding-bottom: 5px;
+}
+.form-login button{
+	width:100%;
+	font-size: 1.6em;
+	border-radius: 2em;
+	-webkit-border-radius: 2em;
+	padding: 0.46875em 0;
+}
+.btn-login{
+	border: solid 1px #50A0DD ;
+	background: #50A0DD;
+	color: #FFF;
+	margin-top: 1.5em;
+	border-radius: 2em;
+	-webkit-border-radius: 2em;
+}
+.btn-login-free{
+	background: #FFF;
+	border: solid 1px #444F63;
+	color: #435063;
+	margin-top: 1.25em;
+}

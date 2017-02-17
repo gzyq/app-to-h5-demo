@@ -1,0 +1,75 @@
+.pCenter{
+	background: #2D7AE3;
+	color: #FFF;
+}
+.pCenter h1{
+	font-size: 0.18rem;
+    padding: 0.15rem;
+    text-align: center;
+}
+.pCenter-set h2{
+	padding:0.18rem 0 0.09rem 0.2rem;
+}
+.pCenter-set .info1-set{
+	background: #FFF;
+	height: 1rem;
+	margin-bottom:0.1rem; 
+	box-sizing: border-box;
+	padding:0.18rem;
+	position: relative;
+}
+.pCenter-set .info1-set img{
+	width: 0.64rem;
+	height: 0.64rem;
+}
+.info-name{
+	position: absolute;
+	left: 0.93rem;
+	top: 0.27rem;
+}
+.info-grade{
+	font-size: 0.12rem;
+	color: #737373;
+	position: absolute;
+	left: 0.93rem;
+	top: 0.54rem;
+}
+.grade1-set{
+	display: block;
+	padding-top: 0.3rem;
+	color: #B5BACD;
+	position: absolute;
+	right: 0.22rem;
+	top: 0.27rem;
+	background: url(../imgs/icon_nianji.png) no-repeat top center;
+	background-size: 0.27rem 0.2rem;	
+}
+.pCenter-set ul li{
+	color: #737373;
+	padding: 0.14rem 0.12rem 0.14rem 0.2rem;
+	border-bottom: solid 1px #E8E9EB;
+	position: relative;
+	background: #FFF;
+	
+}
+.pCenter-set ul li i{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0.305rem;
+	height: 100%;
+	display: inline-block;
+	
+}
+.info2-set i{
+	background: url(../imgs/fanhui.png) no-repeat center center;
+	background-size: 0.065rem 0.12rem;
+}
+.info-grade-set i{
+	background: url(../imgs/icon_dian_hui.png) no-repeat center center;
+	background-size: 0.14rem 0.14rem;
+}
+.info-grade-set i.grade-on{
+	background: url(../imgs/icon_dian_se.png) no-repeat center center;
+	background-size: 0.14rem 0.14rem;
+}

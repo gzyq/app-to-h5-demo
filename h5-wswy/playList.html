@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="万视无忧"/>
+    <meta name="keywords" content="万视无忧"/>
+    <meta name="author" content="email@gmail.com"/>
+    <meta name="robots" content="index,follow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-title" content="万视无忧">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telphone=no, email=no"/>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="HandheldFriendly" content="true">
+    <link rel="apple-touch-icon-precomposed" href="img/more_logo.png"/>
+    <link rel="shortcut icon" href="img/logo.icon"></link>
+    <title>万视无忧-播放列表</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/playList.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slide.css"/>
+</head>
+<body>
+<nav  id="menu" class="menu">
+	<h1><a href="videoLibrary.html"><img src="img/more_logo.png"/></a></h1>
+	<p>testing@simope.com22</p>
+	<ul>
+		<li class="slide-li-01"><a href="playHistory.html">播放历史</a></li>
+		<li class="slide-li-02"><a href="collection.html">收藏视频</a></li>
+		<li class="slide-li-03"><a href="productIntro.html">产品介绍</a></li>
+		<li class="slide-li-04"><a href="" class="slide-a-logout">注销登录</a></li>
+	</ul>
+</nav>
+<div class="div-logout-mask">
+	<div class="div-logout">
+		<p>是否确认注销改账号？</p>
+		<p><a href="index.html" class="a-btn-ok">确认</a><a href="" class="a-btn-no">取消</a></p>
+	</div>
+</div>
+<div id="main" class="panel">
+<header>
+	<span class="spn-slideout-toggle"></span>
+	播放列表
+	<a href="search.html" class="a-btn-search"><span class="spn-search"></sapn></a>
+</header>
+<main>
+<div class="div-wrap-playlist">
+	<section>
+		<p class="p1"></p>
+		<p class="p2"></p>
+		<img src="img/playList1.png"/>
+		<span>电影合集</span>
+	</section>
+	<section>
+		<p class="p1"></p>
+		<p class="p2"></p>
+		<img src="img/playList1.png"/>
+		<span>新东方几句话</span>
+	</section>
+	<section>
+		<p class="p1"></p>
+		<p class="p2"></p>
+		<img src="img/playList1.png"/>
+		<span>电影合集</span>
+	</section>
+	<section>
+		<p class="p1"></p>
+		<p class="p2"></p>
+		<img src="img/playList1.png"/>
+		<span>电影合集</span>
+	</section>
+	<section>
+		<p class="p1"></p>
+		<p class="p2"></p>
+		<img src="img/playList1.png"/>
+		<span>电影合集</span>
+	</section>
+	<section>
+		<p class="p1"></p>
+		<p class="p2"></p>
+		<img src="img/playList1.png"/>
+		<span>电影合集</span>
+	</section>
+	<section>
+		<p class="p1"></p>
+		<p class="p2"></p>
+		<img src="img/playList1.png"/>
+		<span>电影合集</span>
+	</section>
+	<section>
+		<p class="p1"></p>
+		<p class="p2"></p>
+		<img src="img/playList1.png"/>
+		<span>电影合集</span>
+	</section>
+</div>
+</main>
+<footer>
+	<a href="videoLibrary.html"><img src="img/video-library@2x.png"/><span>视频库</span></a>
+	<a href="playList.html"><img src="img/list@2x.png"/><span>播放列表</span></a>
+	<a href="live.html" ><img src="img/live@2x.png"/><span>直播</span></a>
+</footer>
+</div>
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/commom.js" ></script>
+<script src="js/slideout.min.js"></script>
+<script type="text/javascript">
+	 $(function(){
+	 	signOut();
+	 	slideToggle();	
+	});
+</script>
+</body>
+</html>
